@@ -1,0 +1,26 @@
+{
+  "greeting": [
+    "Hello! I am Abhishek's portfolio chatbot. I will provide answers to questions based on Abhishek's resume.",
+    "Feel free to ask anything related to Abhishek's skills, experience, projects, or education!"
+  ],
+  "details": "Abhishek Sharma, based in Noida, India, can be reached at P: +91 8218412829 or via email at AbhishekSharmabt1c@gmail.com. LinkedIn: [Abhishek Sharma](https://www.linkedin.com/in/abhishek-sharma-2a3764252)",
+  "experience": "Abhishek is currently working as a Mobile Application Developer at GDSC (Google Developer Student Club) since April 2022. His responsibilities include managing mobile application development projects and streamlining the development process, resulting in a 30% reduction in time-to-market and a 25% increase in user satisfaction. He is quick to adapt to new programming languages, tools, and frameworks.",
+  "projects": {
+    "Messaging Application (Hindi-Hangout)": "Developed a messaging application in Kotlin, integrating Firebase Firestore, Realtime Database, and Authentication. Implemented asynchronous programming with Kotlin Coroutines, Firebase integration for authentication, and integration with the ChatGPT API.",
+    "Flatmate Finder (Tinder Clone for Flatmates)": "Implemented the app following the MVVM architectural pattern, employed Dagger Hilt for dependency injection, integrated the CardStackView library for a Tinder-like swipeable card interface, and used Retrofit for optimized network requests. The app focuses on user-friendly flatmate matching, scalability, responsive UI, and real-time communication.",
+    "Jetpack Compose TODO app": "Developed an Android app using Jetpack Compose with a UI following MVVM architecture, CRUD operations, and Room Database for data persistence."
+  },
+  "skills": "Abhishek possesses proficiency in various skills, including Android Studio, Kotlin, Java, Flutter, Git and GitHub, Android SDK, Jetpack Compose, MVVM Architecture, Dependency Injection, Kotlin Coroutines, Async Programming, C/C++, Component Libraries, Android 14 SDK, Room Database, Retrofit, Restful API’s, App Testing.",
+  "certifications": [
+    "Udemy Course Completion Certificate",
+    "Microsoft Azure AI Fundamentals",
+    "PHP and MySQL Training by IIT Bombay",
+    "Participated in SIH 2023",
+    "Participated in ICPC 2023 as team TheDynamicSamurais"
+  ],
+  "education": [
+    "Abhishek is currently pursuing a Bachelor of Engineering in Information Technology at JSS Academy of Technical Education, Noida, from 2021 onwards. His SGPA until the 4th Semester is 7.59.",
+    "For his Higher Secondary Education in PCM, Abhishek achieved 91% from Khalsa Mount. Sen. Sec. School, from 2018 to 2020.",
+    "For Secondary School Education, he secured 82.6% from Khalsa Mount. Sen. Sec. School in 2017-2018."
+  ]
+}
