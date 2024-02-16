@@ -9,11 +9,11 @@ import os
 
 
 st.set_page_config(
-    page_title="Chat with Shivansh's Portfolio chatbot",
+    page_title="Chat with Abhishek Sharma's Portfolio chatbot",
     
 )
 
-st.title("Shivansh's Portfolio Chatbot")
+st.title("Abhishek Sharma's Portfolio Chatbot")
 st.caption("A Chatbot Powered by Google Gemini Pro")
 
 st.session_state.app_key = st.secrets["API_KEY"]
@@ -35,8 +35,8 @@ with st.sidebar:
     if st.button("Clear Chat Window", use_container_width=True, type="primary"):
         st.session_state.history = []  # Clear the chat history without rerunning the script
     
-    st.subheader("Connect with Shivansh:")
-    st.write("[LinkedIn | ](https://linkedin.com/in/shivanshtri010)", "[ GitHub](https://github.com/shivanshtri010)", "[ | Instagram](https://www.instagram.com/shivanshtripathi010/)")
+    st.subheader("Connect with Abhishek:")
+    st.write("[LinkedIn | ](https://www.linkedin.com/in/abhishek-sharma-2a3764252/)", "[ GitHub](https://github.com/AbhiSharma096)", "[ | Instagram](https://www.instagram.com/abhi.sharma_31/?hl=en)")
 
 if "app_key" in st.session_state:
     if prompt := st.chat_input(""):
