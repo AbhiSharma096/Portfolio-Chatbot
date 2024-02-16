@@ -3,7 +3,6 @@ import streamlit as st
 import google.generativeai as genai
 import time
 import random
-from dotenv import load_dotenv
 import os
 
 
@@ -17,9 +16,8 @@ st.set_page_config(
 st.title("Shivansh's Portfolio Chatbot")
 st.caption("A Chatbot Powered by Google Gemini Pro")
 
-load_dotenv()
+st.session_state.app_key = st.secrets["API_KEY"]
 
-st.session_state.app_key = os.getenv("API_KEY") 
 
 if "history" not in st.session_state:
     st.session_state.history = []
