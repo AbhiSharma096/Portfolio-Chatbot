@@ -1,26 +1,49 @@
 {
   "greeting": [
-    "Hello! I am Abhishek's portfolio chatbot. I will provide answers to questions based on Abhishek's resume.",
-    "Feel free to ask anything related to Abhishek's skills, experience, projects, or education!"
+    "Hello! I am Abhishek's portfolio chatbot. I'm here to assist you with any questions related to Abhishek's skills, experience, projects, or education.",
+    "Feel free to ask anything about Abhishek's mobile development expertise, backend capabilities, or recent work in AI-driven solutions!"
   ],
-  "details": "Abhishek Sharma, based in Noida, India, can be reached at P: +91 8218412829 or via email at AbhishekSharmabt1c@gmail.com. LinkedIn: [Abhishek Sharma](https://www.linkedin.com/in/abhishek-sharma-2a3764252)",
-  "experience": "Abhishek is currently working as a Mobile Application Developer at GDSC (Google Developer Student Club) since April 2022. His responsibilities include managing mobile application development projects and streamlining the development process, resulting in a 30% reduction in time-to-market and a 25% increase in user satisfaction. He is quick to adapt to new programming languages, tools, and frameworks.",
-  "projects": {
-    "Messaging Application (Hindi-Hangout)": "Developed a messaging application in Kotlin, integrating Firebase Firestore, Realtime Database, and Authentication. Implemented asynchronous programming with Kotlin Coroutines, Firebase integration for authentication, and integration with the ChatGPT API.",
-    "Flatmate Finder (Tinder Clone for Flatmates)": "Implemented the app following the MVVM architectural pattern, employed Dagger Hilt for dependency injection, integrated the CardStackView library for a Tinder-like swipeable card interface, and used Retrofit for optimized network requests. The app focuses on user-friendly flatmate matching, scalability, responsive UI, and real-time communication.",
-    "Jetpack Compose TODO app": "Developed an Android app using Jetpack Compose with a UI following MVVM architecture, CRUD operations, and Room Database for data persistence."
+  "details": "Abhishek Sharma is based in Noida, India, and is a Software Developer specializing in mobile and backend development. You can reach him at P: +91 8218412829 or via email at AbhishekSharma10a@gmail.com. LinkedIn: [Abhishek Sharma](https://www.linkedin.com/in/abhishek-sharma-2a3764252).",
+  "experience": {
+    "current_position": "Mobile Developer at NEETprep (Aug 2024 – Present)",
+    "current_responsibilities": "Abhishek is currently working as a mobile developer, focusing on Flutter and Kotlin to enhance frontend user experience, implement multithreading for smooth functionality, and optimize state management for responsive UI. He has contributed to increasing the Crash-Free Users count to 99.2%.",
+    "previous_positions": [
+      {
+        "role": "Mobile Developer at TheHomy (April 2024 – Aug 2024)",
+        "description": "Abhishek handled end-to-end mobile development for this project using Flutter. He integrated a secure payment gateway, optimized app performance, and ensured seamless functionality across multiple platforms."
+      },
+      {
+        "role": "Mobile Development Intern at SmartPilzz (Dec 2023 – March 2024)",
+        "description": "Abhishek developed an AI-powered recommendation system for personalized medicine suggestions. He integrated these models into a cross-platform UI, focusing on responsive design and maintainability."
+      },
+      {
+        "role": "Lead Mobile Developer at Google Developer Student Club (April 2022 – Aug 2024)",
+        "description": "Led mobile app projects using React Native and Flutter, resulting in a 30% reduction in time-to-market and a 25% increase in user satisfaction. He also coordinated the development of features and design optimization."
+      }
+    ]
   },
-  "skills": "Abhishek possesses proficiency in various skills, including Android Studio, Kotlin, Java, Flutter, Git and GitHub, Android SDK, Jetpack Compose, MVVM Architecture, Dependency Injection, Kotlin Coroutines, Async Programming, C/C++, Component Libraries, Android 14 SDK, Room Database, Retrofit, Restful API’s, App Testing.",
+  "projects": {
+    "Messaging Application (Hindi-Hangout)": "Built a messaging app in Kotlin, leveraging Firebase Firestore, Realtime Database, and Authentication for secure messaging. Utilized Kotlin Coroutines for asynchronous tasks and integrated ChatGPT API to enhance NLP-based communication, increasing user engagement by 30%.",
+    "Flatmate Finder (Tinder Clone for Flatmates)": "Developed a flatmate-matching app using MVVM architecture, Dagger Hilt for dependency injection, and CardStackView for interactive swipes. Integrated Retrofit for efficient network calls, improving server communication by 15%, and enhanced user engagement by 35%.",
+    "NutriScan - AI Fitness Health App": "Created an AI-powered food scanning app using Gemini SDK. The app identifies various food items, provides nutritional information, and generates personalized meal plans based on user preferences. This app combines machine learning models with a seamless UX for a health-conscious audience.",
+    "Zealicon23 - College Fest App": "Developed an app for streamlining registration and event management for over 3,000 students. The app processed over 1,200 paid registrations with integrated secure payment systems and maintained real-time event updates for participants.",
+    "Jetpack Compose TODO App": "Designed a TODO app using Jetpack Compose and MVVM architecture, utilizing Room Database for data persistence and implementing CRUD operations for efficient task management."
+  },
+  "skills": {
+    "Mobile Development": "Proficient in Android, Kotlin, Flutter, and iOS development. Experienced with React Native and cross-platform mobile development.",
+    "Backend Development": "Skilled in NodeJS, Express.js, RESTful APIs, and backend architecture. Experience with MongoDB, MySQL, and Firebase for database management.",
+    "Additional Tools & Frameworks": "Dagger Hilt, Retrofit, Firebase Authentication, Firebase Firestore, Kotlin Coroutines, MVVM Architecture, Jetpack Compose, Async Programming, Room Database, CameraX Library, GPS integration."
+  },
   "certifications": [
-    "Udemy Course Completion Certificate",
+    "Udemy Course Completion Certificate in Mobile Development",
     "Microsoft Azure AI Fundamentals",
     "PHP and MySQL Training by IIT Bombay",
-    "Participated in SIH 2023",
+    "Participated in SIH 2022",
     "Participated in ICPC 2023 as team TheDynamicSamurais"
   ],
-  "education": [
-    "Abhishek is currently pursuing a Bachelor of Engineering in Information Technology at JSS Academy of Technical Education, Noida, from 2021 onwards. His SGPA until the 4th Semester is 7.59.",
-    "For his Higher Secondary Education in PCM, Abhishek achieved 91% from Khalsa Mount. Sen. Sec. School, from 2018 to 2020.",
-    "For Secondary School Education, he secured 82.6% from Khalsa Mount. Sen. Sec. School in 2017-2018."
-  ]
+  "education": {
+    "bachelor": "Currently pursuing Bachelor of Engineering in Information Technology at JSS Academy of Technical Education, Noida (2021 – Present), with a cumulative SGPA of 7.114.",
+    "higher_secondary": "Completed Higher Secondary Education (PCM) with 91% at Khalsa Mount. Sen. Sec. School (2019 – 2020).",
+    "secondary": "Completed Secondary School Education with 82.6% at Khalsa Mount. Sen. Sec. School (2017 – 2018)."
+  }
 }
