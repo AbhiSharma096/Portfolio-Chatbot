@@ -9,7 +9,6 @@ import os
 st.set_page_config(
     page_title="Chat with Abhishek Sharma's Portfolio Chatbot",
 )
-
 st.title("Abhishek Sharma's Portfolio Chatbot")
 st.caption("A Chatbot Powered by Google Gemini Pro")
 
@@ -45,11 +44,10 @@ with open("context.json", "r") as file:
 with st.sidebar:
     if st.button("Clear Chat Window", use_container_width=True, type="primary"):
         st.session_state.history = []  # Clear chat history
-
     st.subheader("Connect with Abhishek:")
-    st.write("[LinkedIn](https://www.linkedin.com/in/abhishek-sharma-2a3764252/)", 
-             "[GitHub](https://github.com/AbhiSharma096)", 
-             "[Instagram](https://www.instagram.com/abhi.sharma_31/?hl=en)")
+    st.write("[LinkedIn](https://www.linkedin.com/in/abhishek-sharma-2a3764252/)",
+              "[GitHub](https://github.com/AbhiSharma096)",
+              "[Instagram](https://www.instagram.com/abhi.sharma_31/?hl=en)")
 
 # Main chat interface
 if "app_key" in st.session_state:
@@ -64,7 +62,6 @@ if "app_key" in st.session_state:
         with st.chat_message("assistant"):
             message_placeholder = st.empty()
             message_placeholder.markdown("Thinking...")
-
             try:
                 # Combine context and user input for chatbot
                 input_text = json.dumps(context) + f' � {prompt}'
